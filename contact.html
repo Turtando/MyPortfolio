@@ -7,7 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="custom-style.css">    
+    <link rel="stylesheet" href="custom-style.css">
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -35,44 +35,46 @@
             </div>
         </nav>
     </header>
-    <section class="cointainer-fluid m-5">
+    <section class="cointainer-fluid m-3">
         <div class="row">
-        <div class="col-sm-6 card p-3">
-            
-                <h2 class="card-title p-1">Contact</h2>
-                <hr>
-                <form>
-                    <div class="form-group">
-                        <label for="form_name">Name</label>
-                        <input id="form_name" type="text" name="name" class="form-control"
-                            placeholder="Please enter your name *" required="required"
-                            data-error="Firstname is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Please enter your email *">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                    </div>
+            <div class="col-sm-8">
+                <div class="card p-3">
+                    <h2 class="card-title p-1">Contact</h2>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="form_name">Name</label>
+                            <input id="form_name" type="text" name="name" class="form-control"
+                                placeholder="Please enter your name *" required="required"
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Please enter your email *">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
+        <footer class="mt-auto" role="contentinfo">
+            <!-- <div class="row">
+                <div class="col-md-12 copy"> -->
+                    <p class="text-center">&copy; This is where my social media information goes.</p>
+                <!-- </div>
+            </div> -->
+        </footer>
     </section>
 </body>
-<footer class="mt-auto" role="contentinfo">
-    <div class="row">
-        <div class="col-md-12 copy">
-            <p class="text-center">&copy; This is where my social media information goes.</p>
-        </div>
-    </div>
-</footer>
+
 
 </html>
