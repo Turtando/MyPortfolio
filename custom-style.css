@@ -1,3 +1,5 @@
+/* customize our font and background image for the entire page */
 body {
     background-image: url('freebackground.jpg');
+    font-family: 'Roboto Condensed', sans-serif;
 }
