@@ -3,3 +3,7 @@ body {
     background-image: url('freebackground.jpg');
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+figure {
+    text-align: center;
+}
