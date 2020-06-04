@@ -2,9 +2,14 @@
 body {
     background-image: url('freebackground.jpg');
     font-family: 'Roboto Condensed', sans-serif;
-    padding-bottom: 70px
 }
 
 figure {
+    width: 25%;
+    text-align: center;
+    display:inline-block;
+}
+
+footer {
     text-align: center;
 }
